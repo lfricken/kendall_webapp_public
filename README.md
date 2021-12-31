@@ -1,5 +1,5 @@
 # Financial Bond Map
-I wrote this for a friend who is a Municipal Bond Advisor for school districts. It uses a spreadsheet to make a map of school districts that he could do business with now or in the future. This code was hacked together by me in the fastest possible time.
+I wrote this for a friend who is a [Municipal Bond Advisor](https://en.wikipedia.org/wiki/Municipal_bond) (for school districts). It uses a spreadsheet to make a map of school districts that he could do business with now or in the future. This code was hacked together by me in the fastest possible time.
 
 ![Error loading image. See the example.png file.](https://github.com/lfricken/kendall_webapp_public/blob/main/example.PNG "Colors are useful!")
 
