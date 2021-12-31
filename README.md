@@ -1,5 +1,7 @@
-# [Financial Bond Map (click)](https://github.com/lfricken/kendall_webapp_public/blob/main/example.PNG)
+# Financial Bond Map
 Uses a spreadsheet to make a map of school districts that could use a bond issue.
+
+![Error loading image. See the example.png file.](https://github.com/lfricken/kendall_webapp_public/blob/main/example.PNG "Colors are useful!")
 
 Parses a tsv file and drops pins on google maps for each entry. Each entry can contain data which is displayed on a popup at the pin:
 * Name of the school district
