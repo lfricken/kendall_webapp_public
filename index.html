@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+		<meta charset="utf-8">
+		<title>Kendalls Web App</title>
+		<style>
+			table {
+				font-family: arial, sans-serif;
+				border-collapse: collapse;
+				width: 100%;
+			}
+
+			td, th {
+				border: 1px solid #dddddd;
+				text-align: left;
+				padding: 8px;
+			}
+
+			tr:nth-child(even) {
+				background-color: #dddddd;
+			}
+			
+			html, body {
+				height: 100%;
+				margin: 0;
+				padding: 0;
+			}
+
+			#controls {
+				height: 100%;
+				width: 5%;
+				float: left;
+			}
+
+			#map {
+				height: 100%;
+			}
+		</style>
+	</head>
+
+	<body>
+		<div id="controls">
+			<input type="file" id="fileinput" />
+
+			<div>
+				<label for="colorByProvider">Color by Provider</label>
+				<input id="colorByProvider" type="checkbox" checked onclick='refreshMarkers();' />
+			</div>
+		</div>
+
+		<div id="map"></div>
+
+		<script src="code.js"></script>
+		<script async defer	src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDNAGMlNJr7yrKAz28mLCA5vmhp_03d1IQ&callback=initMap"></script>
+	</body>
+</html>
+
+
+		<!-- 
+		<div id="controls">
+			<input type="file" id="fileinput" multiple />
+
+			<br>
+			<br>
+
+			<label for="heatmapControls">HeatMap Options:</label>
+		    <div id ="heatmapControls">
+				<button onclick="increaseRadius()">+</button>
+				<button onclick="decreaseRadius()">-</button>
+	     		<button onclick="changeOpacity()">Change opacity</button>
+				<label for="adjustHeatWithZoom">Adjust Heat With Zoom?</label>
+				<input id="adjustHeatWithZoom" type="checkbox" checked />
+	    	</div>
+	    	
+			<br>
+
+			<div>
+				<label for="showMarkersCheckbox">Show Markers?</label>
+				<input id="showMarkersCheckbox" type="checkbox" checked onclick='onShowMarkers();' />
+			</div>
+	      <button onclick="redo()">redo</button>
+		</div>
+		-->
