@@ -1,7 +1,7 @@
 
 var maxDaysForRedMarker = 365
 var maxDaysForYellowMarker = 365 * 2
-var GOOGLE_MAPS_API_KEY = "AIzaSyDNAGMlNJr7yrKAz28mLCA5vmhp_03d1IQ";
+var GOOGLE_MAPS_API_KEY = "";
 
 
 
